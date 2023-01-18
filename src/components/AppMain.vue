@@ -54,6 +54,14 @@ export default {
 
     </section>
 
+    <section class="advertising">
+        <div class="container">
+            <h2>Amazon cta</h2>
+
+        </div>
+
+    </section>
+
 
 
 
@@ -87,5 +95,10 @@ export default {
             width: calc(100% / 3);
         }
     }
+}
+
+.advertising {
+    height: 50vh;
+    background-color: lightsalmon;
 }
 </style>

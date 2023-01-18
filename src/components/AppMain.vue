@@ -95,6 +95,10 @@ export default {
         </div>
     </section>
 
+    <section class="what_students_say">
+
+    </section>
+
 
 
 
@@ -143,5 +147,10 @@ export default {
 
     }
 
+}
+
+.what_students_say {
+    height: 60vh;
+    background-color: blue;
 }
 </style>

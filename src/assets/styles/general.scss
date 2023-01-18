@@ -8,12 +8,19 @@
     width: 70%;
     margin: auto;
     height: 100%;
-    border: 1px dashed black;
-    background-color: red;
+
 }
 
 .d-flex {
     display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .flex-wrap {

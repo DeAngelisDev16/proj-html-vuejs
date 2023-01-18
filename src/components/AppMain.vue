@@ -9,8 +9,8 @@ export default {
 
 <template>
     <section class="jumbo">
-        <h2>jumbo section</h2>
     </section>
+
 
     <section class="founder_info">
         <div class="container">
@@ -107,8 +107,11 @@ export default {
 
 <style lang="scss" scoped>
 .jumbo {
-    height: 70vh;
-    background-color: aqua;
+    background-image: url('../assets/img/slide-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
 }
 
 .founder_info {

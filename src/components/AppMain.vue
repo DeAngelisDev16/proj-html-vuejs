@@ -64,9 +64,23 @@ export default {
 
     </section>
 
-    <section class="advertising">
-        <div class="container">
-            <h2>Amazon cta</h2>
+    <section class="amazon_advertising">
+        <div class="container d-flex align-center">
+            <div class="col-6 text-center">
+                <h2>Get My Exclusive Investing Book just for $19.50</h2>
+                <p>Vestibulum imentum eu urna vel cursus. Anean vehicula quam quam, vitae pellentesque urna <br>
+                    elementum
+                    cursus.
+                </p>
+                <a href="#"> <img class="amazon_link" src="../assets/img/amazon.png" alt=""></a>
+
+            </div>
+            <div class="col-6 d-flex">
+                <img src="../assets/img/book.png" alt="">
+
+            </div>
+
+
         </div>
 
 
@@ -161,6 +175,11 @@ export default {
         width: 40%;
 
     }
+
+
+
+
+
 }
 
 
@@ -201,9 +220,44 @@ export default {
     }
 }
 
-.advertising {
-    height: 50vh;
-    background-color: lightsalmon;
+.amazon_advertising {
+    height: 70vh;
+    background-image: url('../assets/img/slider_1-1917x607-1914x606.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    img {
+        width: 30%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    h2 {
+        color: #F2B91E;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    p {
+        color: #FFFF;
+        font-size: 1.5rem;
+
+    }
+
+    .amazon_link {
+        width: 10%;
+        margin-bottom: 3rem;
+        margin-left: -5rem;
+
+    }
+
+
+
+
+
+
 }
 
 .why_my_courses {
@@ -212,8 +266,9 @@ export default {
 
     .course_features {
         width: calc(100% / 2);
-
     }
+
+
 
 }
 

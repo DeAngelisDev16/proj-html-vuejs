@@ -34,8 +34,21 @@
 .col-6 {
     width: calc(100% / 2);
 
+
 }
 
 .text-center {
     text-align: center;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.direction_column {
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
 }

@@ -10,6 +10,9 @@ export default {
 
 <template>
     <div class="discount">
+        <h2><span>Limited Sale:</span>All courses with 55% off</h2>
+        <input type="text" size="55" placeholder="Enter your email">
+        <button>Subscribe</button>
 
     </div>
 
@@ -25,6 +28,35 @@ export default {
     position: absolute;
     bottom: 85%;
     left: 15%;
+    padding: 2rem;
+
+    span {
+        color: white;
+        padding-right: .3rem;
+
+    }
+
+    input,
+    button {
+        margin-top: 1.5rem;
+        border-radius: 2rem;
+        height: 2.5rem;
+
+    }
+
+    button {
+        margin-left: -3rem;
+        padding: .5rem;
+        background-color: #2D4649;
+        color: white;
+
+    }
+
+    input {
+        padding: .5rem;
+    }
+
+
 
 }
 </style>

@@ -71,8 +71,9 @@ header {
     }
 
     .active {
-        border-bottom: 2px solid #F3C035;
-        position: relative;
+        border-bottom: 3px solid #F3C035;
+        padding: .2rem;
+
 
     }
 

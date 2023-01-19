@@ -1,10 +1,61 @@
 <script>
 import LimitedSale from './LimitedSale.vue';
+import CourseCard from './CourseCard.vue';
 
 export default {
     name: 'AppMain',
     components: {
         LimitedSale,
+        CourseCard,
+    },
+    data() {
+        return {
+            courseCardData: [
+                {
+                    title: 'How to be a DJ? Make Electronic Music',
+                    category: 'Electronic',
+                    mode: 'Advanced',
+                    lectures: '8 lectures',
+                    hours: '6 hours'
+                },
+                {
+                    title: 'Nvidia and UE4 Technologies Practice',
+                    category: 'Nvidia',
+                    mode: 'Advanced',
+                    lectures: '8 lectures',
+                    hours: '6 hours'
+                },
+                {
+                    title: 'Fashion Photography from professional',
+                    category: 'fashion',
+                    mode: 'Advanced',
+                    lectures: '6 lectures',
+                    hours: '6 hours'
+                },
+                {
+                    title: 'Design Instruments for Communication',
+                    category: 'Communication',
+                    mode: 'Intermediate',
+                    lectures: '6 lectures',
+                    hours: '6 hours'
+                },
+                {
+                    title: 'Make your Concept Right and Beautiful',
+                    category: 'Art',
+                    mode: 'intermediate',
+                    lectures: '6 lectures',
+                    hours: '6 hours'
+                },
+                {
+                    title: 'Road Bike Manual or How to Be a Champion',
+                    category: 'Bicycling',
+                    mode: 'Beginner',
+                    lectures: '6 lectures',
+                    hours: '6 hours'
+                },
+            ]
+        }
+
     }
 }
 
@@ -48,36 +99,8 @@ export default {
 
     <section class="new_courses">
         <div class="courses_container d-flex flex-wrap">
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
-            <div class="course_card">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quidem nisi cupiditate veniam?
-                    Vitae, maxime quod repudiandae ut possimus numquam iusto, distinctio perspiciatis provident
-                    accusamus inventore reiciendis iure, hic culpa.</h3>
-            </div>
+            <CourseCard />
+
         </div>
 
     </section>
@@ -160,7 +183,7 @@ export default {
 }
 
 .founder_info {
-    padding-top: 6rem;
+    padding-top: 7rem;
     padding-bottom: 4rem;
     position: relative;
 
@@ -186,20 +209,18 @@ export default {
 
 
 .new_courses {
-    height: 100vh;
-    background-color: green;
+    border: 3px dashed red;
+
+
 
     .courses_container {
         width: 70%;
         margin: auto;
         height: 100%;
-        border: 1px dashed black;
-        background-color: red;
 
 
-        .course_card {
-            width: calc(100% / 3);
-        }
+
+
     }
 }
 

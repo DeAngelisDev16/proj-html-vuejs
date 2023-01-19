@@ -12,7 +12,8 @@ export default {
         <div class="col-6"></div>
         <div class="col-6">
             <h1>Start your Human <br> <span>Revolution</span> today</h1>
-            <p>A wonderful serenity has taken possetion of my entire soul, like <br> these sweet mornings of spring wich
+            <p>A wonderful serenity has taken possetion of my entire soul, like <br> these sweet mornings of spring
+                which
                 I
                 enjoy with my whole heart.</p>
         </div>
@@ -21,8 +22,22 @@ export default {
 
 
     <section class="founder_info">
-        <div class="container">
-            <h2>founder info section</h2>
+        <div class="container d-flex">
+            <div class="col-6">
+                <h2>Hey there,my name is <br> John Doe.I'm the founder <br> of the Brain Academy.</h2>
+                <img src="../assets/img/sign.jpg" alt="">
+            </div>
+            <div class="col-6">
+                <p>A wonderful serenity has taken possetion of my entire soul, like these sweet <br> mornings of spring
+                    which
+                    I
+                    enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was
+                    created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the
+                    exquisite sense of mere tranquil existence,that I neglect my talents. When, while the lovely
+                    valley teems with vapour around me,and the meridian sun strikes the upper surface of the
+                    impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</p>
+            </div>
+
         </div>
     </section>
 
@@ -140,8 +155,29 @@ export default {
 }
 
 .founder_info {
-    height: 50vh;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+
+    h2,
+    img {
+        padding-left: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    img {
+        margin-top: 2rem;
+        margin-left: 4.5rem;
+        width: 40%;
+
+    }
 }
+
+
+
+
 
 .new_courses {
     height: 100vh;

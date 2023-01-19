@@ -1,7 +1,11 @@
 <script>
+import LimitedSale from './LimitedSale.vue';
 
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        LimitedSale,
+    }
 }
 
 
@@ -22,6 +26,7 @@ export default {
 
 
     <section class="founder_info">
+        <LimitedSale />
         <div class="container d-flex">
             <div class="col-6">
                 <h2>Hey there,my name is <br> John Doe.I'm the founder <br> of the Brain Academy.</h2>
@@ -157,6 +162,7 @@ export default {
 .founder_info {
     padding-top: 6rem;
     padding-bottom: 4rem;
+    position: relative;
 
     h2,
     img {

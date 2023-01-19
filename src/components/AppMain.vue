@@ -12,6 +12,9 @@ export default {
         <div class="col-6"></div>
         <div class="col-6">
             <h1>Start your Human <br> <span>Revolution</span> today</h1>
+            <p>A wonderful serenity has taken possetion of my entire soul, like <br> these sweet mornings of spring wich
+                I
+                enjoy with my whole heart.</p>
         </div>
 
     </section>
@@ -117,6 +120,10 @@ export default {
     background-size: cover;
     height: 90vh;
 
+    .col-6 {
+        margin-left: -1rem;
+    }
+
     h1 {
         font-size: 3rem;
 
@@ -124,6 +131,10 @@ export default {
             color: #F2B91E;
         }
 
+    }
+
+    p {
+        padding-top: 1rem;
     }
 
 }

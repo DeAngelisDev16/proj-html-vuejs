@@ -12,7 +12,8 @@ export default {
                     mode: 'Advanced',
                     lectures: '8 lectures',
                     hours: '6 hours',
-                    thumb: 'photo-1496307042754-b4aa456c4a2d-370x200.jpeg'
+                    thumb: 'photo-1496307042754-b4aa456c4a2d-370x200.jpeg',
+                    type: 'special'
                 },
                 {
                     title: 'Nvidia and UE4 Technologies Practice',
@@ -20,7 +21,9 @@ export default {
                     mode: 'Advanced',
                     lectures: '8 lectures',
                     hours: '6 hours',
-                    thumb: '12345-1-370x200.png'
+                    thumb: '12345-1-370x200.png',
+                    type: 'special'
+
                 },
                 {
                     title: 'Fashion Photography from professional',
@@ -28,7 +31,9 @@ export default {
                     mode: 'Advanced',
                     lectures: '6 lectures',
                     hours: '6 hours',
-                    thumb: 'photo-1491897554428-130a60dd4757-370x200.jpeg'
+                    thumb: 'photo-1491897554428-130a60dd4757-370x200.jpeg',
+                    type: 'special'
+
 
 
 
@@ -44,7 +49,7 @@ export default {
                 {
                     title: 'Make your Concept Right and Beautiful',
                     category: 'Art',
-                    mode: 'intermediate',
+                    mode: 'Intermediate',
                     lectures: '6 lectures',
                     hours: '6 hours',
                     thumb: 'cathryn-lavery-67852-unsplash-370x200.jpg'
@@ -75,6 +80,7 @@ export default {
 <template>
     <div class="course_card" v-for="card in courseCardData">
         <img :src="getImagePath(card.thumb)" alt="">
+        <span class="special">{{ card.type }}</span>
         <div class="card_info text-center">
             <h3>{{ card.title }}</h3>
             <h4>{{ card.category }}</h4>
@@ -103,12 +109,24 @@ export default {
 .course_card {
     width: calc(100% / 3);
     padding: 1rem;
+    position: relative;
 
 
     img {
         width: 100%;
 
 
+    }
+
+    .special {
+        background-color: #F09B23;
+        text-transform: uppercase;
+        position: absolute;
+        top: 7%;
+        right: 10%;
+        color: white;
+        padding: .3rem;
+        font-size: .7rem;
     }
 
     .card_info {
@@ -145,6 +163,8 @@ export default {
 
         span {
             padding: 1rem;
+            color: #2D4649;
+            font-size: .8rem;
 
             .fa-solid,
             .fa-regular {

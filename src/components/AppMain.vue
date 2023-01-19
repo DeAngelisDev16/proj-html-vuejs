@@ -60,6 +60,7 @@ export default {
             <CourseCard />
 
         </div>
+        <button>load more</button>
 
     </section>
 
@@ -168,7 +169,12 @@ export default {
 
 .new_courses {
     background-color: #EDF2F5;
-    padding: 3rem 0;
+    padding: 4rem 0;
+
+    h2 {
+        font-size: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
 
 
 
@@ -181,6 +187,16 @@ export default {
 
 
 
+
+    }
+
+    button {
+        padding: .9rem;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+        background-color: #F2B91E;
+        color: #FFFF;
 
     }
 }

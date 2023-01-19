@@ -87,50 +87,74 @@ export default {
     </section>
 
     <section class="why_my_courses ">
-        <h2>Why my courses</h2>
-        <div class="container d-flex flex-wrap">
-            <div class="course_features d-flex">
-                <i class="fa-solid fa-briefcase"></i>
-                <div>
-                    <h3>Entrepreneurship</h3>
-                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
-                        at
-                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
-                        Vestibulum vuluptate.
-                    </p>
+        <h2>Why my courses?</h2>
+        <div class="container d-flex flex-wrap space_between">
+            <div class="course_features">
+                <div class="card_border d-flex">
+                    <i class="fa-solid fa-briefcase"></i>
+
+                    <div>
+                        <h3>Entrepreneurship</h3>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
+                            suspendisse
+                            at
+                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
+                            tempor arcu.
+                            Vestibulum vuluptate.
+                        </p>
+                    </div>
+
                 </div>
             </div>
             <div class="course_features d-flex">
-                <i class="fa-solid fa-briefcase"></i>
-                <div>
-                    <h3>Entrepreneurship</h3>
-                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
-                        at
-                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
-                        Vestibulum vuluptate.
-                    </p>
+                <div class="card_border d-flex">
+                    <i class="fa-solid fa-rocket"></i>
+                    <div>
+                        <h3>Accelerated learning</h3>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
+                            suspendisse
+                            at
+                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
+                            tempor arcu.
+                            Vestibulum vuluptate.
+                        </p>
+                    </div>
+
                 </div>
             </div>
             <div class="course_features d-flex">
-                <i class="fa-solid fa-briefcase"></i>
-                <div>
-                    <h3>Entrepreneurship</h3>
-                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
-                        at
-                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
-                        Vestibulum vuluptate.
-                    </p>
+                <div class="card_border d-flex">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <div>
+                        <h3>Productivity</h3>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
+                            suspendisse
+                            at
+                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
+                            tempor arcu.
+                            Vestibulum vuluptate.
+                        </p>
+                    </div>
+
                 </div>
+
+
+
             </div>
             <div class="course_features d-flex">
-                <i class="fa-solid fa-briefcase"></i>
-                <div>
-                    <h3>Entrepreneurship</h3>
-                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
-                        at
-                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
-                        Vestibulum vuluptate.
-                    </p>
+                <div class="card_border d-flex">
+                    <i class="fa-solid fa-gear"></i>
+                    <div>
+                        <h3>Life Coaching</h3>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
+                            suspendisse
+                            at
+                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
+                            tempor arcu.
+                            Vestibulum vuluptate.
+                        </p>
+                    </div>
+
                 </div>
             </div>
 
@@ -288,16 +312,42 @@ export default {
 }
 
 .why_my_courses {
+    padding: 4rem;
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-bottom: 2.5rem;
+
+
+    }
 
     .course_features {
         width: calc(100% / 2);
-        border: 2px dashed red;
         padding: 1rem;
+
+
+        .card_border {
+            border: 1px solid black;
+            padding: 1.54rem;
+        }
+
+
+
+
+
+        .fa-solid {
+            padding-right: 2rem;
+            font-size: 2rem;
+            color: #F2B91E;
+        }
     }
 
-
-
 }
+
+
+
+
 
 .what_students_say {
     height: 60vh;

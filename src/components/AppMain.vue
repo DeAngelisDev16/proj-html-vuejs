@@ -10,50 +10,7 @@ export default {
     },
     data() {
         return {
-            courseCardData: [
-                {
-                    title: 'How to be a DJ? Make Electronic Music',
-                    category: 'Electronic',
-                    mode: 'Advanced',
-                    lectures: '8 lectures',
-                    hours: '6 hours'
-                },
-                {
-                    title: 'Nvidia and UE4 Technologies Practice',
-                    category: 'Nvidia',
-                    mode: 'Advanced',
-                    lectures: '8 lectures',
-                    hours: '6 hours'
-                },
-                {
-                    title: 'Fashion Photography from professional',
-                    category: 'fashion',
-                    mode: 'Advanced',
-                    lectures: '6 lectures',
-                    hours: '6 hours'
-                },
-                {
-                    title: 'Design Instruments for Communication',
-                    category: 'Communication',
-                    mode: 'Intermediate',
-                    lectures: '6 lectures',
-                    hours: '6 hours'
-                },
-                {
-                    title: 'Make your Concept Right and Beautiful',
-                    category: 'Art',
-                    mode: 'intermediate',
-                    lectures: '6 lectures',
-                    hours: '6 hours'
-                },
-                {
-                    title: 'Road Bike Manual or How to Be a Champion',
-                    category: 'Bicycling',
-                    mode: 'Beginner',
-                    lectures: '6 lectures',
-                    hours: '6 hours'
-                },
-            ]
+
         }
 
     }

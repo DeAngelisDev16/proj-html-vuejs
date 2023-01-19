@@ -8,7 +8,12 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo">
+    <section class="jumbo d-flex align-center">
+        <div class="col-6"></div>
+        <div class="col-6">
+            <h1>Start your Human <br> <span>Revolution</span> today</h1>
+        </div>
+
     </section>
 
 
@@ -111,6 +116,15 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+
+    h1 {
+        font-size: 3rem;
+
+        span {
+            color: #F2B91E;
+        }
+
+    }
 
 }
 

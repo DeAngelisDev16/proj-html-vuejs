@@ -86,28 +86,55 @@ export default {
 
     </section>
 
-    <section class="why_my_courses">
+    <section class="why_my_courses ">
+        <h2>Why my courses</h2>
         <div class="container d-flex flex-wrap">
-            <div class="course_features">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sint dolor fuga eligendi enim,
-                    illum voluptatem nemo ipsa cum, nulla hic libero atque. Hic ducimus minus soluta a culpa labore!
-                </h3>
+            <div class="course_features d-flex">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                    <h3>Entrepreneurship</h3>
+                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
+                        at
+                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
+                        Vestibulum vuluptate.
+                    </p>
+                </div>
             </div>
-            <div class="course_features">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sint dolor fuga eligendi enim,
-                    illum voluptatem nemo ipsa cum, nulla hic libero atque. Hic ducimus minus soluta a culpa labore!
-                </h3>
+            <div class="course_features d-flex">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                    <h3>Entrepreneurship</h3>
+                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
+                        at
+                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
+                        Vestibulum vuluptate.
+                    </p>
+                </div>
             </div>
-            <div class="course_features">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sint dolor fuga eligendi enim,
-                    illum voluptatem nemo ipsa cum, nulla hic libero atque. Hic ducimus minus soluta a culpa labore!
-                </h3>
+            <div class="course_features d-flex">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                    <h3>Entrepreneurship</h3>
+                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
+                        at
+                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
+                        Vestibulum vuluptate.
+                    </p>
+                </div>
             </div>
-            <div class="course_features">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sint dolor fuga eligendi enim,
-                    illum voluptatem nemo ipsa cum, nulla hic libero atque. Hic ducimus minus soluta a culpa labore!
-                </h3>
+            <div class="course_features d-flex">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                    <h3>Entrepreneurship</h3>
+                    <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas phaetra. suspendisse
+                        at
+                        viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer vuluputate tempor arcu.
+                        Vestibulum vuluptate.
+                    </p>
+                </div>
             </div>
+
+
 
         </div>
 
@@ -261,11 +288,11 @@ export default {
 }
 
 .why_my_courses {
-    height: 70vh;
-    background-color: bisque;
 
     .course_features {
         width: calc(100% / 2);
+        border: 2px dashed red;
+        padding: 1rem;
     }
 
 

@@ -54,7 +54,8 @@ export default {
         </div>
     </section>
 
-    <section class="new_courses">
+    <section class="new_courses text-center">
+        <h2>New Courses</h2>
         <div class="courses_container d-flex flex-wrap">
             <CourseCard />
 
@@ -166,7 +167,10 @@ export default {
 
 
 .new_courses {
-    border: 3px dashed red;
+    background-color: #EDF2F5;
+    padding: 3rem 0;
+
+
 
 
 

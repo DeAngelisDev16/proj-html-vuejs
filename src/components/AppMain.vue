@@ -180,7 +180,46 @@ export default {
         </div>
     </section>
 
-    <section class="what_students_say">
+    <section class="what_students_say text-center">
+        <h2>What Student Say</h2>
+        <div class="container d-flex justify-center align-center">
+            <pre>&LeftArrow;</pre>
+            <div class="thumbs">
+                <img src="../assets/img/1-100x100.jpg" alt="">
+                <img class="active_thumb" src="../assets/img/2-100x100.jpg" alt="">
+                <img src="../assets/img/4-100x100.jpg" alt="">
+
+
+            </div>
+            <pre>&RightArrow;</pre>
+
+        </div>
+        <h3>Paints of the Future</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+        </div>
+        <div class="container">
+            <p>The response to your MasterStudy has been really overwhelming! Those who participated <br> in the
+                workshop are
+                spreading the word here on campus and the "buzz" is on. The VP of <br> Instruction wants you to come
+                back!
+                Her
+                goal is to have more faculty trained. She also <br> wants to attend a workshop herself. Our sident told
+                me
+                Masterstudy needs to be the <br> cornerstone of our success program.</p>
+
+
+        </div>
+
+
+
+
+
 
     </section>
 
@@ -338,7 +377,7 @@ export default {
 
 
         .card_border {
-            border: 1px solid black;
+            border: 1px thin black;
             padding: 1.54rem;
             border-left: 7px solid #F2B91E;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -406,7 +445,51 @@ export default {
 
 
 .what_students_say {
-    height: 60vh;
-    background-color: blue;
+
+    padding: 4rem 0;
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-bottom: 2.5rem;
+
+
+    }
+
+    h3 {
+        margin-top: 1rem;
+    }
+
+    .stars {
+        color: #EAB830;
+        margin-top: .3rem;
+    }
+
+
+    pre {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    .thumbs {
+        padding: 0 2.5rem;
+
+        img {
+            padding: 0 .8rem;
+            width: 25%;
+            border-radius: 50%;
+        }
+
+        .active_thumb {
+            width: 30%;
+
+        }
+    }
+
+    p {
+        margin: 2rem 0;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
 }
 </style>

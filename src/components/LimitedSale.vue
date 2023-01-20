@@ -117,7 +117,7 @@ export default {
 
     input {
         padding: .5rem;
-        height: 2.2rem
+        height: 2rem
     }
 
 

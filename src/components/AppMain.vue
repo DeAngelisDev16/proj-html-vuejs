@@ -408,8 +408,9 @@ export default {
         }
 
         .card_border:hover {
-            border: 15px solid white;
+
             padding: 1.5rem;
+            transition: 500ms;
             background-color: #F2B91E;
             cursor: pointer;
 

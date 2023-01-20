@@ -62,6 +62,12 @@ header {
             text-decoration: none;
             margin-left: 1rem;
             color: #333333;
+            font-weight: 700;
+        }
+
+        a:hover {
+            color: #F3C035;
+            transition: 200ms;
         }
     }
 

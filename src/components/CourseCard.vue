@@ -132,14 +132,15 @@ export default {
 
     .price {
         position: absolute;
-        color: white;
+        color: #F2B91E;
         font-size: 2rem;
         font-weight: 600;
         right: 45%;
         top: 20%;
         display: none;
-
     }
+
+
 
 
 
@@ -193,7 +194,8 @@ export default {
 }
 
 .course_card:hover {
-    opacity: .5;
+    opacity: .8;
+    transition: 200ms;
     cursor: pointer;
 
     .price {

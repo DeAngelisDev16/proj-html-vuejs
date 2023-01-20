@@ -194,6 +194,7 @@ export default {
 
 .course_card:hover {
     opacity: 0.5;
+    cursor: pointer;
 
     .price {
         display: block;

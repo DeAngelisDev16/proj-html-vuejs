@@ -390,7 +390,7 @@ export default {
 
         .card_border {
             border: 1px thin black;
-            padding: 1.54rem;
+            padding: 1.5rem;
             border-left: 7px solid #F2B91E;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -398,6 +398,21 @@ export default {
                 font-size: 1.5rem;
                 margin-bottom: 1rem;
             }
+        }
+
+        .card_border:hover {
+            border: 15px solid white;
+            padding: 1.5rem;
+            background-color: #F2B91E;
+            cursor: pointer;
+
+            .fa-solid {
+                color: #FFFF;
+            }
+
+
+
+
         }
 
 

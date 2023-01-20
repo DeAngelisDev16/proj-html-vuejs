@@ -152,9 +152,30 @@ export default {
 
     </section>
 
-    <section class="advertising">
-        <div class="container">
-            <h2>Ratings</h2>
+    <section class="ratings">
+        <div class="container d-flex space_between align-center">
+            <div class="ratings_info">
+                <i class="fa-solid fa-user-group"></i>
+                <span>3195</span>
+                <pre>Online Learner</pre>
+            </div>
+            <div class="ratings_info">
+                <i class="fa-solid fa-user-group"></i>
+                <span>3195</span>
+                <pre>Online Learner</pre>
+            </div>
+            <div class="ratings_info">
+                <i class="fa-solid fa-user-group"></i>
+                <span>3195</span>
+                <pre>Online Learner</pre>
+            </div>
+            <div class="ratings_info">
+                <i class="fa-solid fa-user-group"></i>
+                <span>3195</span>
+                <pre>Online Learner</pre>
+            </div>
+
+
         </div>
     </section>
 
@@ -337,6 +358,39 @@ export default {
             color: #F2B91E;
         }
     }
+
+}
+
+.ratings {
+    height: 70vh;
+    background-image: url('../assets/img/counter-1919x1101.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fa-solid {
+        color: #FFFF;
+        font-size: 1.5rem;
+
+
+    }
+
+    span {
+        color: #EAB830;
+        font-size: 2rem;
+        padding-left: .8rem;
+
+
+
+
+    }
+
+    pre {
+        color: #FFFF;
+        font-size: 1rem;
+        margin-left: 2.6rem;
+
+    }
+
 
 }
 

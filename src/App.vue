@@ -24,5 +24,5 @@ export default {
 
 <style lang="scss">
 @use '../src/assets/styles/general.scss' as *;
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:wght@400;600;700&family=Roboto&display=swap');
 </style>

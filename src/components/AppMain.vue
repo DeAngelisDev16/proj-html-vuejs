@@ -242,6 +242,7 @@ export default {
 
     h1 {
         font-size: 3rem;
+        font-weight: 700;
 
         span {
             color: #F2B91E;

@@ -81,6 +81,7 @@ export default {
     <div class="course_card" v-for="card in courseCardData">
         <img :src="getImagePath(card.thumb)" alt="">
         <span class="special">{{ card.type }}</span>
+        <span class="price">$59</span>
         <div class="card_info text-center">
             <h3>{{ card.title }}</h3>
             <h4>{{ card.category }}</h4>
@@ -129,6 +130,19 @@ export default {
         font-size: .7rem;
     }
 
+    .price {
+        position: absolute;
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        right: 45%;
+        top: 20%;
+        display: none;
+
+    }
+
+
+
     .card_info {
         background-color: #FFFF;
         height: 25vh;
@@ -176,5 +190,13 @@ export default {
     }
 
 
+}
+
+.course_card:hover {
+    opacity: 0.5;
+
+    .price {
+        display: block;
+    }
 }
 </style>

@@ -251,7 +251,7 @@ export default {
 
     p {
         padding-top: 1rem;
-        line-height: 1.4;
+        line-height: 1.6;
         color: #222222;
         font-weight: 100;
     }
@@ -270,6 +270,10 @@ export default {
 
     h2 {
         font-size: 2rem;
+    }
+
+    p {
+        line-height: 1.2;
     }
 
     img {
@@ -319,6 +323,11 @@ export default {
         border-radius: 1rem;
         background-color: #F2B91E;
         color: #FFFF;
+
+    }
+
+    button:hover {
+        background-color: #D9A61B;
 
     }
 }

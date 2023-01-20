@@ -251,6 +251,8 @@ export default {
 
     p {
         padding-top: 1rem;
+        line-height: 1.4;
+        color: #222222;
     }
 
 }

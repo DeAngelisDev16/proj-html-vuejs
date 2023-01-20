@@ -153,27 +153,28 @@ export default {
     </section>
 
     <section class="ratings">
-        <div class="container d-flex space_between align-center">
+        <div class="container d-flex space-evenly align-center">
             <div class="ratings_info">
                 <i class="fa-solid fa-user-group"></i>
                 <span>3195</span>
                 <pre>Online Learner</pre>
             </div>
             <div class="ratings_info">
-                <i class="fa-solid fa-user-group"></i>
-                <span>3195</span>
-                <pre>Online Learner</pre>
+                <i class="fa-solid fa-film"></i>
+                <span>23</span>
+                <pre>Video Courses</pre>
             </div>
             <div class="ratings_info">
-                <i class="fa-solid fa-user-group"></i>
-                <span>3195</span>
-                <pre>Online Learner</pre>
+                <i class="fa-solid fa-image"></i>
+                <span>437</span>
+                <pre>Sliders & Images</pre>
             </div>
             <div class="ratings_info">
-                <i class="fa-solid fa-user-group"></i>
-                <span>3195</span>
-                <pre>Online Learner</pre>
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>1440</span>
+                <pre>Excellent Reviews</pre>
             </div>
+
 
 
         </div>
@@ -367,29 +368,35 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
 
-    .fa-solid {
-        color: #FFFF;
-        font-size: 1.5rem;
+    .ratings_info {
 
 
+        .fa-solid {
+            color: #FFFF;
+            font-size: 2rem;
+
+
+        }
+
+        span {
+            color: #EAB830;
+            font-size: 2rem;
+            padding-left: .8rem;
+
+
+
+
+        }
+
+        pre {
+            color: #FFFF;
+            font-size: 1rem;
+            padding-left: 3rem;
+
+
+        }
     }
 
-    span {
-        color: #EAB830;
-        font-size: 2rem;
-        padding-left: .8rem;
-
-
-
-
-    }
-
-    pre {
-        color: #FFFF;
-        font-size: 1rem;
-        margin-left: 2.6rem;
-
-    }
 
 
 }

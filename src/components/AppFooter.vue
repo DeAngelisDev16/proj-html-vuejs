@@ -35,12 +35,12 @@ export default {
             <div class="col-3">
                 <h3> pages</h3>
                 <ul class="d-flex flex-wrap">
-                    <li>Blog</li>
-                    <li>Courses</li>
-                    <li>Home</li>
-                    <li>Membership A...</li>
-                    <li>Shortcodes</li>
-                    <li>Typhograpy</li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Courses</a> </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Membership A...</a></li>
+                    <li><a href="#">Shortcodes</a></li>
+                    <li><a href="#">Typhograpy</a></li>
 
 
 
@@ -128,7 +128,23 @@ footer {
         li {
             width: calc(100% / 2);
             padding: .5rem 0;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: white;
+            }
+
         }
+
+
+
+
+
+
     }
 
     .posts {
@@ -140,6 +156,11 @@ footer {
 
         .post_title {
             padding-left: .8rem;
+        }
+
+        .post_title:hover {
+            color: white;
+            cursor: pointer;
         }
     }
 

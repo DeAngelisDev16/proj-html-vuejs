@@ -95,13 +95,10 @@ export default {
 
                     <div>
                         <h3>Entrepreneurship</h3>
-                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
-                            suspendisse
-                            at
-                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
-                            tempor arcu.
-                            Vestibulum vuluptate.
-                        </p>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas pharetra.
+                            Suspendisse at viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer
+                            vuluptate tempor arcu. Vestibulum vuluptate.</p>
+
                     </div>
 
                 </div>
@@ -111,13 +108,10 @@ export default {
                     <i class="fa-solid fa-rocket"></i>
                     <div>
                         <h3>Accelerated learning</h3>
-                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
-                            suspendisse
-                            at
-                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
-                            tempor arcu.
-                            Vestibulum vuluptate.
-                        </p>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas pharetra.
+                            Suspendisse at viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer
+                            vuluptate tempor arcu. Vestibulum vuluptate.</p>
+
                     </div>
 
                 </div>
@@ -127,13 +121,10 @@ export default {
                     <i class="fa-solid fa-thumbs-up"></i>
                     <div>
                         <h3>Productivity</h3>
-                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
-                            suspendisse
-                            at
-                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
-                            tempor arcu.
-                            Vestibulum vuluptate.
-                        </p>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas pharetra.
+                            Suspendisse at viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer
+                            vuluptate tempor arcu. Vestibulum vuluptate.</p>
+
                     </div>
 
                 </div>
@@ -146,13 +137,10 @@ export default {
                     <i class="fa-solid fa-gear"></i>
                     <div>
                         <h3>Life Coaching</h3>
-                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis <br> meteus ac tellus egestas phaetra.
-                            suspendisse
-                            at
-                            viverra <br> purus. Pellentesque nec posuere ligula, eu congue leo. <br> Integer vuluputate
-                            tempor arcu.
-                            Vestibulum vuluptate.
-                        </p>
+                        <p>Vestibulum vitae aliquam nunc. Suspendisse mollis meteus ac tellus egestas pharetra.
+                            Suspendisse at viverra purus. Pellentesque nec posuere ligula, eu congue leo. Integer
+                            vuluptate tempor arcu. Vestibulum vuluptate.</p>
+
                     </div>
 
                 </div>
@@ -330,6 +318,13 @@ export default {
         .card_border {
             border: 1px solid black;
             padding: 1.54rem;
+            border-left: 7px solid #F2B91E;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
         }
 
 

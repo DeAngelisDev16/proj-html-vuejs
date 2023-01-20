@@ -3,6 +3,11 @@
 
 export default {
     name: 'LimitedSale',
+    data() {
+        return {
+            mailData: '',
+        }
+    }
 
 }
 
@@ -12,8 +17,8 @@ export default {
     <div class="discount d-flex space_between">
         <div>
             <h2><span>Limited Sale:</span>All courses with 55% off</h2>
-            <input type="email" size="55" placeholder="Enter your email">
-            <button>Subscribe</button>
+            <input type="email" size="55" placeholder="Enter your email" v-model="mailData">
+            <button @click="$emit('getUserEmail', mailData)">Subscribe</button>
         </div>
         <div class="countdown d-flex">
             <div>
@@ -91,17 +96,19 @@ export default {
     button {
         margin-top: 1.5rem;
         border-radius: 2rem;
-        height: 2.5rem;
+
 
 
 
     }
 
     button {
-        margin-left: -3.5rem;
-        padding: .5rem;
+        margin-left: -4rem;
+        padding: .6rem;
         background-color: #2D4649;
         color: white;
+        height: 2.5rem;
+        text-transform: uppercase;
 
 
 
@@ -110,6 +117,7 @@ export default {
 
     input {
         padding: .5rem;
+        height: 2.2rem
     }
 
 

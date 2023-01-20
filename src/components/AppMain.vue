@@ -13,6 +13,12 @@ export default {
 
         }
 
+    },
+    methods: {
+        confirmRegistration() {
+            alert('A new registration mail has been sent to you');
+
+        }
     }
 }
 
@@ -34,7 +40,7 @@ export default {
 
 
     <section class="founder_info">
-        <LimitedSale />
+        <LimitedSale @getUserEmail="confirmRegistration" />
         <div class="container d-flex">
             <div class="col-6">
                 <h2>Hey there,my name is <br> John Doe.I'm the founder <br> of the Brain Academy.</h2>
